@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria - Don Pizza</title>
+</head>
+<body>
+    <div class="sticky">
+        <header>
+            <img class="pizzaria-logo" src="images/WhatsApp_Image_2023-11-27_at_19.42.22-removebg-preview.png" alt="Logo da pizzaria-logo">
+            <h3>Pizzaria Don Pizza</h3>
+        </header>
+        <section class="hub">
+            <a class="principais-pratos-hub" href="#"><p>PRINCIPAIS PRATOS</p></a>
+            <a class="cardapio-hub" href="#cardapio"><p>CARDÁPIO</p></a>
+            <a class="pedido-hub" href="#pedido"><p>PEDIDOS</p></a> 
+        </section>
+    </div>
+    <h2 id="principais-pratos" style="background-color: #FFAE69; margin-top: 0px; font-family: sans-serif;">PRINCIPAIS PRATOS:</h2>
+   
+    <section id="pizzas-section">
+        <div class="pizza-calabreza">
+            <img class="pizza-calabreza-img" src="images/pizza_calabresa.jpg" alt="Pizza de Calabreza">
+            <p><b>Pizza de Calabreza</b></p>
+            <p style="font-size: 20px;">Ingredientes:</p>
+               <p style="font-size: 15px;"> 200 gramas de presunto fatiado <br>
+                200 gramas de mussarela ralada <br>
+                1 Gomo de linguiça calabresa <br>
+                4 colheres de sopa de cebola ralada <br>
+                1 Massa de pizza pronta <br>
+            </p>
+        </div>
+        <div class="pizza-portuguesa">
+            <img class="pizza-portuguesa-img" src="images/pizza-portuguesa.jpg" alt="Pizza Portuguesa">
+            <p><b>Pizza de Portuguesa</b></p>
+            <p style="font-size: 20px;">Ingredientes:</p>
+            <p style="font-size: 15px;">
+                100 gramas de Bacon <br>
+                100 gramas de Calabresa <br>
+                70 gramas de Presunto <br>
+                70 gramas de Queijo muçarela <br>
+                Azeitona, Ovo <br>
+            </p>
+        </div>
+        <div class="pizza-4-queijos">
+            <img class="pizza-4-queijos-img" src="images/pizza-de-4-queijos.jpg" alt="Pizza de 4 Queijos">
+            <p><b> Pizza de 4 Queijos</b></p>
+            <p style="font-size: 20px;">Ingredientes:</p>
+            <p style="font-size: 15px;">
+                100 gramas de Queijo Parmesão <br>
+                100 gramas de Queijo Gruyere <br>
+                100 gramas de Queijo Maasdam <br>
+                100 gramas de Queijo Estepe <br>
+                <br>
+            </p>
+        </div>
+
+    </section>
+    <section class="OBS">
+    <h3>OBS:</h3>
+            <p>Todas as massas contem: <br>
+            2 xícaras (chá) de farinha de trigo (220 g) <br>
+            1 colher (sobremesa) de açúcar <br>
+            1 colher (chá) de fermento biológico seco <br>
+            1 colher (café) de sal <br> </p>
+    </section>
+    <section id="cardapio">
+        <h2 style="font-family: sans-serif;">
+            CARDÁPIO:
+        </h2>
+        <img class="cardapio-img" src="images/Cardapio-pizzas.jpg" alt="Cardápio Pizzas">
+        <img class="bebidas-img" src="images/Bebidas.jpg" alt="Bebidas">
+
+    </section>
+    <section id="pedido">
+        <h2>FAÇA SEU PEDIDO:</h2>
+        <form action="get" class="pedido-formulario">
+            <label class="label-form" for="nome">Nome:</label>
+            <input type="text" id="nome"> <br>
+            <label class="label-form" for="Email">Email:</label>
+            <input type="email" id="Email"> <br>
+            <label class="label-form" for="drescricao-pedido">Faça a descrição do seu pedido:</label><br>
+            <textarea name="" id="drescricao-pedido" cols="30" rows="10"></textarea> <br>
+            <input type="submit" value="Enviar" id="Enviar">
+            <input type="reset" value="Limpar" id="limpar">
+        </form>
+    </section>
+    <footer>
+        <div>
+        <img class="pizzaria-logo-rodape" src="images/WhatsApp_Image_2023-11-27_at_19.42.22-removebg-preview.png" alt="pizzaria Logo">
+        </div>
+        <div class="sobre-nos">
+            <h3>Sobre-nós:</h3>
+            <a href="#"><p><b>Informações sobre a empresa</b></p></a>
+            <a href="#"><p><b>Contato</b></p></a>
+            <a href="#"><p><b>Blog</b></p></a>
+        </div>
+        <div class="sobre-nos">
+            <h3>Suporte:</h3>
+            <a href="#"><p><b>FAQ</b></p></a>
+            <a href="#"><p><b>Telefones</b></p></a>
+            <a href="#"><p><b>Chat</b></p></a>
+        </div>
+        <div class="imagens-do-rodape">
+            <a href="#"><img class="img-rodape" src="images/facebook-logo-new.png" alt="Facebook"></a>
+            <a href="#"><img class="img-rodape" src="images/twitterlogo (2).png" alt="Twitter"></a>
+            <a href="#"><img class="img-rodape" src="images/new-Instagram-logo-white-glyph(2).png" alt="Instagram"></a>
+            <a href="#"><p><b>Contato</b></p></a>
+        </div>
+
+    </footer>
+</body>
+<style>
+    .label-form{
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .imagens-do-rodape p:hover{
+        background-color: #2527242d;
+        box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.1);
+    }
+    .imagens-do-rodape a{
+        text-decoration: none;
+    }
+    .imagens-do-rodape p{
+        margin-left: 10px;
+        position: relative;
+        top: 45px;
+        right: 173px;
+        background-color: #FF6961;
+        font-family: sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 52px;
+        padding-right: 52px;
+        border-radius: 20px;
+        color: black;
+
+    }
+    .imagens-do-rodape{
+        margin-left: 100px;
+        display: block;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .img-rodape:hover{
+        background-color: #2527242d;
+    }
+    .img-rodape{
+        margin-left: 10px;
+        height: 5vh;
+         
+    }
+    .sobre-nos p{   
+        color: gray;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+        padding: 5px;
+        margin-top: -15px;
+    }
+    .sobre-nos p:hover{
+        background-color: #2527242d;
+        border-radius: 10px;
+    }
+    .sobre-nos a{
+        text-decoration: none;
+
+    }
+    .sobre-nos{
+        margin-left: 50px;
+    }
+    .pizzaria-logo-rodape{
+        height: 13vh;
+        
+    }
+    footer h3{
+        font-family: sans-serif;
+        padding: 5px;
+    }
+    footer{
+        width: 100vw;
+        height: fit-content;
+        background-color: orange;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .principais-pratos-hub{
+        text-decoration: none;
+        color: black; 
+    }
+    .sticky{
+        position: sticky;
+        top: 0;
+    }
+    .pedido-hub{
+        text-decoration: none;
+        color: black;
+    }
+    #descricao-pedido{
+        width: 120%;
+    }
+    .pedido-formulario #Email{
+        width: 100%;
+    }
+    .pedido-formulario #nome{
+        width: 100%;
+    }
+    #limpar{
+        background-color: #FF6961;
+    }
+    #Enviar{
+        background-color: #BDECB6;
+    }
+    #pedido h2{
+        font-family: sans-serif;
+    }
+    .pedido-formulario textarea{
+        border-radius: 10px ;
+        border: solid black 2px;
+        margin: 2px;
+    }
+    .pedido-formulario input{
+        border-radius: 10px ;
+        border: solid black 2px;
+        margin: 2px;
+    }
+    #pedido{
+        background-color: #FFAE69;
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+    }
+    .bebidas-img{
+        width: 30vw;
+    }
+    .cardapio-img{
+        width: 30vw;
+    }
+    .cardapio-hub{
+        text-decoration: none;
+        color: black;
+    }
+    #cardapio{
+        background-color: #FFAE69;
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+    .OBS h3{
+        margin-left: 40px;
+    }
+    .OBS p{
+        margin-left: 40px;
+        padding: 5px;
+    }
+    .OBS{
+        background-color: #BDECB6; 
+        margin-top: -1px;
+        border-top: solid black 2px;
+        border-bottom: solid black 2px;
+    }
+    .pizza-4-queijos p{
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: -3px;
+    }
+    .pizza-4-queijos{
+        margin: 50px;
+        margin-bottom: 10px;
+        border: solid black 1px;
+        border-radius: 20px;
+        padding: 10px;
+        height: fit-content;
+        width: 27%;
+        background-color: yellow;
+    }
+    .pizza-4-queijos-img{
+        height: 40vh;
+        border-radius: 10px;
+    }
+    .pizza-portuguesa p{
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: -3px;
+    }
+    .pizza-portuguesa{
+        margin: 50px;
+        margin-bottom: 10px;
+        border: solid black 1px;
+        border-radius: 20px;
+        padding: 10px;
+        height: fit-content;
+        width: 27%;
+        background-color: yellow;
+    }
+    .pizza-portuguesa-img{
+        height: 40vh;
+        border-radius: 10px;
+    } 
+    .pizza-calabreza:hover{
+        box-shadow: 3px 3px 6px hsla(0, 0%, 0%, 0.1);
+        cursor: pointer;
+    }
+    .pizza-calabreza p{
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: -3px;
+    }
+    #pizzas-section{
+        display: flex;
+        background-color: #FFAE69;
+        margin-top: -21px;
+    }
+    .pizza-calabreza{
+        margin: 50px;
+        margin-bottom: 10px;
+        border: solid black 1px;
+        border-radius: 20px;
+        padding: 10px;
+        height: fit-content;
+        width: 27%;
+        background-color: yellow;
+    }   
+    .pizza-calabreza-img{
+        height: 40vh;
+        border-radius: 10px;
+    }
+    .hub p:hover{
+        background-color: darkgoldenrod;
+        cursor: pointer;
+    }
+    .hub p{
+        margin-left: 10px;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+        padding-left: 10px ;
+        padding-right: 10px;
+        font-family: sans-serif;
+
+    }
+    .hub{
+        background-color: rgb(255, 217, 0) ;
+        margin-top: -16px;
+        display: flex;
+        border-bottom: solid black 2px ;
+        border-top: solid black 2px;
+        position: sticky;
+        top: 0;
+    }
+    header h3{
+        font-family: cursive;
+        font-size: 40px;
+        position: relative;
+        bottom: 10px;
+    }
+    .pizzaria-logo{
+        height: 13vh;
+        position: relative;
+        bottom: 10px;
+    }
+    header{
+        width: 100vw;
+        height: 15vh;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: static;
+        top: 0;
+       
+    }
+    body{
+        margin: 0px;
+    }
+</style>
+</html>
