@@ -1,3 +1,23 @@
+.pizza-calabreza a{
+    text-decoration: none;
+    color: black;
+}
+.pizza-portuguesa a{
+    text-decoration: none;
+    color: black;
+}
+.pizza-4-queijos a{
+    text-decoration: none;
+    color: black;
+}
+.comprar-pizza{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(4, 182, 4);
+    border-radius: 100px;
+    margin-bottom: 0px;
+
+}
 .label-form{
     font-family: sans-serif;
     font-size: 15px;
@@ -71,6 +91,7 @@ footer{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .principais-pratos-hub{
     text-decoration: none;
