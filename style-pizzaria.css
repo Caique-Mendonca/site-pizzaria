@@ -1,3 +1,21 @@
+.card{
+    margin: 50px;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 10px;
+    height: fit-content;
+    width: 27%;
+    background-color: yellow;
+}
+.pedido-hub{
+    text-decoration: none;
+    color: black;
+}
+.cardapio-hub{
+    text-decoration: none;
+    color: black;
+}
 #faca-seu-pedido{
     font-family: sans-serif; 
     background-color: beige; 
@@ -5,7 +23,7 @@
     padding: 3px;
     border-bottom: dashed;
     text-align: center;
-
+    
 }
 #cardapio h2{
     font-family: sans-serif; 
@@ -20,9 +38,9 @@
     font-family: sans-serif; 
     text-align: center;
     border-bottom: dashed;
-}
-.comprar-pizza:hover{
-    background-color: aliceblue;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border-top: solid 2px black;
 }
 .pizza-calabreza a{
     text-decoration: none;
@@ -36,17 +54,6 @@
     text-decoration: none;
     color: black;
 }
-.comprar-pizza{
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(4, 182, 4);
-    border-radius: 100px;
-    margin-bottom: 0px;
-}
-.label-form{
-    font-family: sans-serif;
-    font-size: 15px;
-}
 .imagens-do-rodape p:hover{
     background-color: #2527242d;
     box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.1);
@@ -57,7 +64,7 @@
 .imagens-do-rodape p{
     margin-left: 10px;
     position: relative;
-    top: 45px;
+    top: 55px;
     right: 173px;
     background-color: #FF6961;
     font-family: sans-serif;
@@ -67,7 +74,7 @@
     padding-right: 52px;
     border-radius: 20px;
     color: black;
-
+    
 }
 .imagens-do-rodape{
     margin-left: 100px;
@@ -82,7 +89,7 @@
 .img-rodape{
     margin-left: 10px;
     height: 5vh;
-     
+    
 }
 .sobre-nos p{   
     color: gray;
@@ -96,7 +103,7 @@
 }
 .sobre-nos a{
     text-decoration: none;
-
+    
 }
 .sobre-nos{
     margin-left: 50px;
@@ -108,6 +115,7 @@
 footer h3{
     font-family: sans-serif;
     padding: 5px;
+    font-weight: bold;
 }
 footer{
     width: 100vw;
@@ -120,74 +128,10 @@ footer{
 }
 .principais-pratos-hub{
     text-decoration: none;
-    color: black; 
-}
-.sticky{
-    position: sticky;
-    top: 0;
-}
-.pedido-hub{
-    text-decoration: none;
-    color: black;
-}
-#descricao-pedido{
-    width: 120%;
-}
-.pedido-formulario #Email{
-    width: 100%;
-}
-.pedido-formulario #nome{
-    width: 100%;
-}
-#limpar{
-    background-color: #FF6961;
-}
-#Enviar{
-    background-color: #BDECB6;
+    color: red ;
+    
 }
 
-.pedido-formulario textarea{
-    border-radius: 10px ;
-    border: solid black 2px;
-    margin: 2px;
-}
-.pedido-formulario input{
-    border-radius: 10px ;
-    border: solid black 2px;
-    margin: 2px;
-}
-#pedido{
-    background-color: #FFAE69;
-    margin-top: -20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: solid 2px black;
-}
-.bebidas-img{
-    width: 30vw;
-    border-radius: 50px;
-    border: solid black
-}
-.cardapio-img{
-    width: 30vw;
-    border-radius: 50px;
-    border: solid black
-}
-.cardapio-hub{
-    text-decoration: none;
-    color: black;
-}
-#cardapio{
-    background-color: #FFAE69;
-    margin-top: -20px;
-    text-align: center;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
-    height: fit-content;
-    padding-bottom: 20px;
-}
 .OBS h3{
     margin-left: 40px;
 }
@@ -251,7 +195,7 @@ footer{
 #pizzas-section{
     display: flex;
     background-color: #FFAE69;
-    margin-top: -21px;
+    margin-top: 0px;
 }
 .pizza-calabreza{
     margin: 50px;
@@ -273,11 +217,11 @@ footer{
 }
 .hub p{
     margin-left: 10px;
-    padding-left: 10px ;
-    padding-right: 10px;
+    padding: 10px;
     font-family: sans-serif;
     font-weight: bold;
-
+    margin-bottom: 0px;
+    
 }
 .hub{
     background-color: rgb(255, 217, 0) ;
@@ -309,8 +253,12 @@ header{
     justify-content: center;
     position: static;
     top: 0;
-   
+    
 }
 body{
     margin: 0px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
 }
