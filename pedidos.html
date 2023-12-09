@@ -20,20 +20,79 @@
             <a class="cardapio-hub" href="cardapio.html"><p>CARDÁPIO</p></a>
             <a class="pedido-hub" href="#"><p>PEDIDOS</p></a> 
         </nav>
+    </div>
         <h2 id="faca-seu-pedido">FAÇA SEU PEDIDO:</h2>
         <section id="pedido">
             <form action="get" class="pedido-formulario">
-                <label class="label-form" for="nome"><b>Nome:</b></label>
-                <input class="email" type="text" id="nome"> <br>
-                <label class="label-form" for="Email"><b>Email:</b></label>
-                <input class="email" type="email" id="Email"> <br>
-                <label class="label-form" for="drescricao-pedido"><b>Faça a descrição do seu pedido:</b></label><br>
-                <textarea name="" id="drescricao-pedido" cols="30" rows="10"></textarea> <br>
-                <input style="margin-bottom: 2px; border-radius: 100px;" class="btn btn-success" type="submit" value="Enviar" id="Enviar">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Nome</label>
+                  </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px; width: 400px;"></textarea>
+                    <label for="floatingTextarea2">Descreva o seu pedido</label>
+                  </div>
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid" style="margin-bottom: 10px; border: solid black 2px;">
+                      <option selected>Selecione forma de pagamento:</option>
+                      <option value="1">Pix</option>
+                      <option value="2">Cartão</option>
+                      <option value="3">Boleto</option>
+                    </select>
+                    <label for="floatingSelectGrid">Método de pagamento</label>
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Endereço:</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div style="display: flex;">
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Cidade:</label>
+                    <input type="text" class="form-control" id="inputCity" style="margin-bottom: 10px;">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label" style="margin-left: 10px;">Estado:</label>
+                    <select id="inputState" class="form-select" style="margin-left: 10px; border: solid 2px;">
+                      <option selected>Selecionar</option>
+                      <option>AC</option>
+                      <option>AL</option>
+                      <option>AP</option>
+                      <option>AM</option>
+                      <option>BA</option>
+                      <option>CE</option>
+                      <option>ES</option>
+                      <option>GO</option>
+                      <option>MA</option>
+                      <option>MT</option>
+                      <option>MS</option>
+                      <option>MG</option>
+                      <option>PA</option>
+                      <option>PB</option>
+                      <option>PR</option>
+                      <option>PE</option>
+                      <option>PI</option>
+                      <option>RJ</option>
+                      <option>RN</option>
+                      <option>RS</option>
+                      <option>RO</option>
+                      <option>RR</option>
+                      <option>SC</option>
+                      <option>SP</option>
+                      <option>SE</option>
+                      <option>TO</option>
+                      <option>DF</option>
+                    </select>
+                  </div>
+                  </div>
+                <input style="margin-bottom: 2px; border-radius: 100px;" class="btn btn-success" type="submit" value="Pedir" id="Enviar">
                 <input style="margin-bottom: 2px; border-radius: 100px;" class="btn btn-danger" type="reset" value="Limpar" id="limpar">
             </form>
         </section>
-    </div>
+    
     <footer>
         <div>
         <img class="pizzaria-logo-rodape" src="images/WhatsApp_Image_2023-11-27_at_19.42.22-removebg-preview.png" alt="pizzaria Logo">
@@ -56,6 +115,7 @@
             <a href="#"><img class="img-rodape" src="images/new-Instagram-logo-white-glyph(2).png" alt="Instagram"></a>
             <a href="#"><p><b>Contato</b></p></a>
         </div>
+        <p class="pizzaria-rodape-tm">Pizzaria Don Pizza &trade;</p>
 
     </footer>
 </body>

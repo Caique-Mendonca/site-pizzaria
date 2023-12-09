@@ -1,3 +1,15 @@
+.pedido-formulario input{
+    border: solid black 2px;
+}
+.form-floating{
+    margin-top: 10px;
+    
+}
+.pizzaria-rodape-tm{
+    position: relative;
+    top: 131px;
+    right: 1000px;
+}
 .imagens-do-rodape p:hover{
     background-color: #2527242d;
     box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.1);
@@ -62,7 +74,7 @@ footer h3{
     font-weight: bold;
 }
 footer{
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     background-color: orange;
     display: flex;
@@ -84,6 +96,7 @@ footer{
     margin-bottom: 0px;
     font-weight: bold;
     border-top: solid 2px black;
+    width: 100%;
 
 }
 #descricao-pedido{
@@ -113,6 +126,7 @@ footer{
     justify-content: center;
     align-items: center;
     border-bottom: solid 2px black;
+    width: 100%;
 }
 .pedido-hub{
     color: red !important;
@@ -136,13 +150,13 @@ footer{
 }
 .hub{
     background-color: rgb(255, 217, 0) ;
-    margin-top: -16px;
     display: flex;
     border-bottom: solid black 2px ;
     border-top: solid black 2px;
     position: sticky;
     top: 0;
     justify-content: center;
+    width: 100%;
 }
 header h3{
     font-family: cursive;
@@ -156,7 +170,7 @@ header h3{
     bottom: 10px;
 }
 header{
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     background-color: orange;
     display: flex;
