@@ -79,8 +79,6 @@
 .imagens-do-rodape p{
     margin-left: 10px;
     position: relative;
-    top: 55px;
-    right: 173px;
     background-color: #FF6961;
     font-family: sans-serif;
     padding-top: 10px;
@@ -89,14 +87,15 @@
     padding-right: 52px;
     border-radius: 20px;
     color: black;
+    margin-top: 8px;
     
 }
 .imagens-do-rodape{
     margin-left: 100px;
-    display: block;
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .img-rodape:hover{
     background-color: #2527242d;
@@ -107,7 +106,7 @@
     
 }
 .sobre-nos p{   
-    color: gray;
+    color: red ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     padding: 5px;
     margin-top: -15px;
@@ -123,8 +122,25 @@
 .sobre-nos{
     margin-left: 50px;
 }
+.suporte p{
+    color: red ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 5px;
+    margin-top: -15px;
+}
+.suporte p:hover{
+    background-color: #2527242d;
+    border-radius: 10px;
+}
+.suporte a{
+    text-decoration: none;
+}
+.suporte{
+    margin-left: 50px;
+}
 .pizzaria-logo-rodape{
     height: 13vh;
+    margin-left: 30px;
     
 }
 footer h3{
@@ -175,7 +191,7 @@ footer{
     padding: 10px;
     height: fit-content;
     width: 27%;
-    background-color: yellow;
+    background-color: rgb(255, 217, 0) ;
 }
 .pizza-4-queijos-img{
     height: 40vh;
@@ -194,7 +210,7 @@ footer{
     padding: 10px;
     height: fit-content;
     width: 27%;
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
 }
 .pizza-portuguesa-img{
     height: 40vh;
@@ -211,6 +227,7 @@ footer{
     margin-top: 0px;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 .pizza-calabreza{
     margin: 50px;
@@ -220,7 +237,7 @@ footer{
     padding: 10px;
     height: fit-content;
     width: 27%;
-    background-color: yellow;
+    background-color: rgb(255, 217, 0) ;
 }   
 .pizza-calabreza-img{
     height: 40vh;
@@ -276,4 +293,69 @@ body{
 .sticky{
     position: sticky;
     top: 0;
+}
+
+.pizza-4-queijos, .pizza-calabreza, .pizza-portuguesa{
+    min-width: 400px;
+    
+}
+@media (max-width: 1025px){
+  .pizza-4-queijos, .pizza-calabreza, .pizza-portuguesa{
+      min-width: 500px;
+      
+    }
+}
+
+@media (max-width: 430px) {
+    .pizza-4-queijos, .pizza-calabreza, .pizza-portuguesa{
+        min-width: 300px;
+        
+    }
+    header h3{
+        font-size: 30px;
+    }
+    footer{
+        justify-content: center;
+    }
+    .pizzaria-logo-rodape{
+        margin-left:0px;
+        
+    }
+    .hub p{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 430px) {
+    footer{
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .imagens-do-rodape{
+        margin-left: 46px;
+    }
+
+}   
+
+@media (max-width: 280px) {
+.pizza-4-queijos, .pizza-calabreza, .pizza-portuguesa{
+     min-width: 300px;
+}
+}
+@media (max-width: 376px) {
+    .hub p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 280px) {
+    .pizza-4-queijos, .pizza-calabreza, .pizza-portuguesa{
+        min-width: 200px;
+        
+    }
+    .hub p{
+        font-size: 11px;
+    }
+    header h3{
+        font-size: 22px;
+    }
 }

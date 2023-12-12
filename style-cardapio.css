@@ -13,8 +13,6 @@
 .imagens-do-rodape p{
     margin-left: 10px;
     position: relative;
-    top: 55px;
-    right: 173px;
     background-color: #FF6961;
     font-family: sans-serif;
     padding-top: 10px;
@@ -23,14 +21,15 @@
     padding-right: 52px;
     border-radius: 20px;
     color: black;
-
+    margin-top: 8px;
+    
 }
 .imagens-do-rodape{
     margin-left: 100px;
-    display: block;
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .img-rodape:hover{
     background-color: #2527242d;
@@ -41,7 +40,7 @@
      
 }
 .sobre-nos p{   
-    color: gray;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     padding: 5px;
     margin-top: -15px;
@@ -55,6 +54,22 @@
 
 }
 .sobre-nos{
+    margin-left: 50px;
+}
+.suporte p{
+    color: red ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 5px;
+    margin-top: -15px;
+}
+.suporte p:hover{
+    background-color: #2527242d;
+    border-radius: 10px;
+}
+.suporte a{
+    text-decoration: none;
+}
+.suporte{
     margin-left: 50px;
 }
 .pizzaria-logo-rodape{
@@ -83,6 +98,9 @@ footer{
     height: fit-content;
     padding-bottom: 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .bebidas-img{
     width: 30vw;
@@ -166,4 +184,51 @@ body{
 .sticky{
     position: sticky;
     top: 0;
+}
+@media (max-width: 1024px) {
+    .cardapio-img{
+        min-width: 800px;
+    }
+    .bebidas-img{
+        min-width: 800px;
+    }
+}
+@media (max-width: 430px) {
+    .cardapio-img{
+        min-width: 350px;
+    }
+    .bebidas-img{
+        min-width: 350px;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .imagens-do-rodape{
+        margin-left: 46px;
+    }
+    header h3{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 376px) {
+    .hub p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 280px) {
+    .hub p{
+        font-size: 9px;
+    }
+    header h3{
+        font-size: 22px;
+    }
+    .cardapio-img{
+        min-width: 250px;
+    }
+    .bebidas-img{
+        min-width: 250px;
+    }
 }
