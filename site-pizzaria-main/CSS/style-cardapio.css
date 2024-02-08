@@ -24,7 +24,7 @@
 }
 .pizzaria-rodape-tm{
     margin-left: 20px;
-    font-weight: bold;
+    font-family: "Rubik Spray Paint", system-ui;
 }
 .imagens-do-rodape p:hover{
     background-color: #2527242d;
@@ -182,8 +182,6 @@ header{
     align-items: center;
     justify-content: center;
     position: static;
-    top: 0;
-    
 }
 body{
     margin: 0px;
