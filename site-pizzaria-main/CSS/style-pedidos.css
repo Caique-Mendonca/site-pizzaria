@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
-
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.botao-form{
+    width: 100px;
+}
+.botoes-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+#principais-pratos-nav{
+    color: black !important;
+}
 #instagram-rodape:hover, #facebook-rodape:hover, #twitter-rodape:hover{
     color: dodgerblue;
 }
@@ -44,8 +60,6 @@
     text-decoration: none;
 }
 .imagens-do-rodape{
-    margin-left: 100px;
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -111,16 +125,12 @@ footer{
     
 }
 #faca-seu-pedido{
-    background-color: beige;
-    margin-top: 0px; 
-    font-family: sans-serif; 
+    font-family: 'Inter',sans-serif; 
     text-align: center;
-    border-bottom: dashed;
-    margin-bottom: 0px;
     font-weight: bold;
-    border-top: solid 2px black;
+    height: fit-content;
     width: 100%;
-
+    margin-top: 10px;
 }
 #descricao-pedido{
     width: 120%;
@@ -142,14 +152,13 @@ footer{
     margin: 2px;
 }
 #pedido{
-    background-color: #FFAE69;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: solid 2px black;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 .pedido-hub{
     color: red !important;
@@ -226,7 +235,6 @@ body{
     }
     .pizzaria-logo-rodape{
         margin-left:0px;
-        
     }
     .hub p{
         padding-left: 0px;
@@ -243,12 +251,7 @@ body{
     footer{
         justify-content: center;
         flex-direction: column;
-
     }
-    .imagens-do-rodape{
-        margin-left: 46px;
-    }
-
 } 
 @media (max-width: 376px) {
     .hub p{

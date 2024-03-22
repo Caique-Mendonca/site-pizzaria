@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
-
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+#principais-pratos-nav{
+    color: black !important;
+}
 #instagram-rodape:hover, #facebook-rodape:hover, #twitter-rodape:hover{
     color: dodgerblue;
 }
@@ -34,8 +43,6 @@
     text-decoration: none;
 }
 .imagens-do-rodape{
-    margin-left: 100px;
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -96,38 +103,35 @@ footer{
     flex-wrap: wrap;
 }
 #cardapio{
-    background-color: #FFAE69;
     text-align: center;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
     height: fit-content;
     padding-bottom: 20px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .bebidas-img{
     width: 30vw;
     border-radius: 50px;
-    border: solid black;
     margin-top: 8px;
+    margin-right: 20px;
+    box-shadow: 0px 3px 10px #464646;
 }
 .cardapio-img{
     width: 30vw;
     border-radius: 50px;
-    border: solid black;
     margin-top: 8px;
+    margin-left: 20px;
+    box-shadow: 0px 3px 10px #464646;
 }
 #cardapio h2{
-    background-color: beige;
-    font-family: sans-serif; 
+    font-family: 'Inter',sans-serif; 
     text-align: center;
-    border-bottom: dashed;
-    margin-bottom: 0px;
     font-weight: bold;
-    padding-top: 2px;
+    height: fit-content;
     width: 100%;
+    margin-top: 10px;
 }
 .hub a{
     text-decoration: none;
@@ -208,9 +212,6 @@ body{
         flex-direction: column;
 
     }
-    .imagens-do-rodape{
-        margin-left: 46px;
-    }
 /* Responsividade para Smartphones */
 }
 @media (max-width: 540px) {
@@ -228,9 +229,6 @@ body{
     }
     .bebidas-img{
         min-width: 350px;
-    }
-    .imagens-do-rodape{
-        margin-left: 46px;
     }
     header h3{
         font-size: 30px;

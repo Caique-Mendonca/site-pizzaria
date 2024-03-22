@@ -6,6 +6,7 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 .cards-pizzas{
     display: flex;
@@ -84,21 +85,6 @@
 #principais-pratos-nav{
     color: red;
 }
-#faca-seu-pedido{
-    font-family: sans-serif; 
-    background-color: beige; 
-    margin-top: 0px; 
-    padding: 3px;
-    border-bottom: dashed;
-    text-align: center;
-}
-#cardapio h2{
-    font-family: sans-serif; 
-    background-color: beige; 
-    margin-top: 0px; 
-    padding: 3px;
-    border-bottom: dashed;
-}
 #principais-pratos{
     font-family: 'Inter',sans-serif; 
     text-align: center;
@@ -117,8 +103,6 @@
     height: fit-content;
 }
 .imagens-do-rodape{
-    margin-left: 100px;
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -270,9 +254,6 @@ body{
     footer{
         justify-content: center;
         flex-direction: column;
-    }
-    .imagens-do-rodape{
-        margin-left: 46px;
     }
 }   
 @media (max-width: 280px) {
