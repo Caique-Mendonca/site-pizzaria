@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.cards-pizzas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pizzaria-conponents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#instagram-rodape:hover, #facebook-rodape:hover, #twitter-rodape:hover{
+    color: dodgerblue;
+    transition: 400ms;
+}
+#instagram-rodape{
+    color: white;
+    font-size: 50px;
+}
+#facebook-rodape{
+    color: white;
+    font-size: 50px;
+}
+#twitter-rodape{
+    color: white;
+    font-size: 50px;
+}
+.card-pizza{
+    margin: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 18rem;
+    box-shadow: 0px 3px 10px #464646;
+    min-width: 400px;
+}
+.card-pizza a{
+    text-decoration: none;
+    color: black;
+}
+.card-pizza p{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.contatos{
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.preco{
+    color: red;
+}
+.pizzaria-rodape-tm{
+    margin-left: 20px;
+    font-family: "Rubik Spray Paint", system-ui;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#principais-pratos-nav{
+    color: red;
+}
+#principais-pratos{
+    font-family: 'Inter',sans-serif; 
+    text-align: center;
+    font-weight: bold;
+    height: fit-content;
+    width: 100%;
+    margin-top: 10px;
+}
+.imagens-do-rodape p:hover{
+    background-color: #2527242d;
+    box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+.imagens-do-rodape a{
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+.imagens-do-rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.img-rodape{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sobre-nos p{   
+    color: red ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 5px;
+    margin-top: -15px;
+}
+.sobre-nos p:hover{
+    background-color: #2527242d;
+    border-radius: 10px;
+}
+.sobre-nos a{
+    text-decoration: none;
+    
+}
+.sobre-nos{
+    margin-left: 50px;
+}
+.suporte p{
+    color: red ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 5px;
+    margin-top: -15px;
+}
+.suporte p:hover{
+    background-color: #2527242d;
+    border-radius: 10px;
+}
+.suporte a{
+    text-decoration: none;
+}
+.suporte{
+    margin-left: 50px;
+}
+.pizzaria-logo-rodape{
+    width: 130px;
+}
+footer h3{
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(235, 156, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 3px 0px 10px #464646;
+}
+.img-card{
+    border-radius: 10px;
+}
+#pizzas-section{
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.hub p:hover{
+    color: red;
+    cursor: pointer;
+}
+.hub p{
+    margin-left: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.hub{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h3{
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;    
+}
+.pizzaria-logo{
+    width: 5.5rem;
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+}
+header{
+    background-color: rgb(235, 156, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    box-shadow: 0px 3px 10px #464646;
+}
+body{
+    margin: 0px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+@media (max-width: 1025px){
+    .card-pizza{
+        min-width: 500px;
+    }
+    .pizzaria-logo{
+        max-width: 15vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .card-pizza{
+        min-width: 300px;
+    }
+    header h3{
+        font-size: 30px;
+    }
+    footer{
+        justify-content: center;
+    }
+    .pizzaria-logo-rodape{
+        margin-left:0px;
+    }
+    .hub p{
+        padding-left: 0px;
+    }
+    .img-rodape{
+        height: 4vh; 
+    }
+    .pizzaria-logo{
+        max-width: 22vw;
+    }
+}
+@media (max-width: 912px) {
+    footer{
+        justify-content: center;
+        flex-direction: column;
+    }
+}   
+@media (max-width: 280px) {
+    .card-pizza{
+        min-width: 300px;
+    }
+}
+@media (max-width: 376px) {
+    .hub p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 280px) {
+    .card-pizza{
+        min-width: 200px;
+    }
+    .hub p{
+        font-size: 11px;
+    }
+    header h3{
+        font-size: 22px;
+    }
+}

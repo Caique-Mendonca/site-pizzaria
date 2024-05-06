@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/WhatsApp_Image_2023-11-27_at_19.42.22-removebg-preview-favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style-pedidos.css">
+    <link rel="stylesheet" href="/CSS/style-pizzaria.css">
+    <title>Pizzaria - Don Pizza: Pedidos</title>
+</head>
+<body>
+  <div class="sticky">
+    <header>
+        <div class="pizzaria-conponents">
+            <img class="pizzaria-logo img-fluid" src="/images/WhatsApp_Image_2023-11-27_at_19.42.22-removebg-preview.png" alt="Logo da pizzaria-logo">
+            <h3>Pizzaria Don Pizza&trade;</h3>
+        </div>
+        <div>
+            <nav class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link principais-pratos-hub" id="principais-pratos-nav" href="index.html">PRINCIPAIS PRATOS</a></li>
+                    <li class="nav-item"><a class="nav-link cardapio-hub" id="cardapio-nav"  href="cardapio.html">CARDÁPIO</a></li>
+                    <li class="nav-item "><a class="nav-link pedido-hub" href="pedidos.html">PEDIDOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  </div>
+  <section id="pedido">
+    <h2 id="faca-seu-pedido">Faça seu pedido:</h2>
+    <form action="get" class="pedido-formulario">
+      <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Nome</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+        <label for="floatingTextarea2">Descreva o seu pedido</label>
+      </div>
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelectGrid" style="margin-bottom: 10px; border: solid black 2px;">
+          <option selected>Selecione forma de pagamento:</option>
+          <option value="1">Pix</option>
+          <option value="2">Cartão</option>
+          <option value="3">Boleto</option>
+        </select>
+        <label for="floatingSelectGrid">Método de pagamento</label>
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Endereço:</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Rua 1234">
+      </div>
+      <div style="display: flex;">
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade:</label>
+          <input type="text" class="form-control" id="inputCity" style="margin-bottom: 10px;">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label" style="margin-left: 10px;">Estado:</label>
+          <select id="inputState" class="form-select" style="margin-left: 10px; border: solid 2px;">
+            <option selected>Selecionar</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+            <option>DF</option>
+          </select>
+        </div>
+      </div>
+      <div class="botoes-form">
+        <input class="botao-form btn btn-success" type="submit" value="Pedir" id="Enviar">
+        <input class="botao-form btn btn-danger" type="reset" value="Limpar" id="limpar">
+      </div>
+    </form>
+  </section>
+  <footer>
+    <div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ">
+    <img class="pizzaria-logo-rodape" src="/images/WhatsApp_Image_2023-11-27_at_19.42.22-removebg-preview.png" alt="pizzaria Logo">
+    <p class="pizzaria-rodape-tm">Pizzaria Don Pizza&trade;</p>
+    </div>
+    <div style="display: flex;">
+        <div class="sobre-nos">
+            <h3>Sobre-nós:</h3>
+            <a href="#"><p><b>Informações sobre a empresa</b></p></a>
+            <a href="#"><p><b>Contato</b></p></a>
+            <a href="#"><p><b>Blog</b></p></a>
+        </div>
+        <div class="suporte">
+            <h3>Suporte:</h3>
+            <a href="#"><p><b>FAQ</b></p></a>
+            <a href="#"><p><b>Telefones</b></p></a>
+            <a href="#"><p><b>Chat</b></p></a>
+        </div>
+    </div>
+    <div class="imagens-do-rodape">
+        <div style="display: flex; justify-content: space-between;">
+        <a href="#"><i class="bi bi-facebook img-rodape" id="facebook-rodape"></i></a>
+        <a href="#"><i class="bi bi-twitter" id="twitter-rodape"></i></a>
+        <a href="#"><i class="bi bi-instagram img-rodape" id="instagram-rodape"></i></a>
+        </div>
+        <button type="button" class="btn btn-danger contatos">Contato</button>  
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

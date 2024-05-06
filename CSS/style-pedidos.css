@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.botao-form{
+    width: 100px;
+}
+.botoes-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+#principais-pratos-nav{
+    color: black !important;
+}
+#instagram-rodape:hover, #facebook-rodape:hover, #twitter-rodape:hover{
+    color: dodgerblue;
+}
+#instagram-rodape{
+    color: white;
+    font-size: 50px;
+}
+#facebook-rodape{
+    color: white;
+    font-size: 50px;
+}
+#twitter-rodape{
+    color: white;
+    font-size: 50px;
+}
+#floatingTextarea2{
+    height: 250px; 
+}
+.contatos{
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pedido-formulario input{
+    border: solid black 2px;
+}
+.form-floating{
+    margin-top: 10px;
+    
+}
+.pizzaria-rodape-tm{
+    margin-left: 20px;
+    font-family: "Rubik Spray Paint", system-ui;
+}
+.imagens-do-rodape p:hover{
+    background-color: #2527242d;
+    box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+.imagens-do-rodape a{
+    text-decoration: none;
+}
+.imagens-do-rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.img-rodape{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sobre-nos p{   
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 5px;
+    margin-top: -15px;
+}
+.sobre-nos p:hover{
+    background-color: #2527242d;
+    border-radius: 10px;
+}
+.sobre-nos a{
+    text-decoration: none;
+
+}
+.sobre-nos{
+    margin-left: 50px;
+}
+.suporte p{
+    color: red ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 5px;
+    margin-top: -15px;
+}
+.suporte p:hover{
+    background-color: #2527242d;
+    border-radius: 10px;
+}
+.suporte a{
+    text-decoration: none;
+}
+.suporte{
+    margin-left: 50px;
+}
+.pizzaria-logo-rodape{
+    width: 130px;
+}
+footer h3{
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: orange;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.label-form{
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+#faca-seu-pedido{
+    font-family: 'Inter',sans-serif; 
+    text-align: center;
+    font-weight: bold;
+    height: fit-content;
+    width: 100%;
+    margin-top: 10px;
+}
+#descricao-pedido{
+    width: 120%;
+}
+.pedido-formulario #Email{
+    width: 100%;
+}
+.pedido-formulario #nome{
+    width: 100%;
+}
+
+.pedido-formulario textarea{
+    border-radius: 10px ;
+    border: solid black 2px;
+}
+.pedido-formulario .email{
+    border-radius: 10px ;
+    border: solid black 2px;
+    margin: 2px;
+}
+#pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.pedido-hub{
+    color: red !important;
+}
+.hub a{
+    text-decoration: none;
+    color: black;
+}
+
+.hub p:hover{
+    color: red;
+    cursor: pointer;
+}
+.hub p{
+    margin-left: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.hub{
+    background-color: rgb(255, 217, 0) ;
+    display: flex;
+    border-bottom: solid black 2px ;
+    border-top: solid black 2px;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+}
+header h3{
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.pizzaria-logo{
+    max-width: 8vw;
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+}
+body{
+    margin: 0px;
+}
+@media (max-width: 1025px) {
+    .pizzaria-logo{
+        max-width: 15vw;
+    }
+}
+@media (max-width: 430px) {
+    header h3{
+        font-size: 30px;
+    }
+    footer{
+        justify-content: center;
+    }
+    .pizzaria-logo-rodape{
+        margin-left:0px;
+    }
+    .hub p{
+        padding-left: 0px;
+    }
+    .pedido-formulario{
+        width: 70%;
+    }
+    .pizzaria-logo{
+        max-width: 22vw;
+    }
+
+}
+@media (max-width: 912px) {
+    footer{
+        justify-content: center;
+        flex-direction: column;
+    }
+} 
+@media (max-width: 376px) {
+    .hub p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 280px) {
+    .hub p{
+        font-size: 11px;
+    }
+    header h3{
+        font-size: 22px;
+    }
+
+}
+
