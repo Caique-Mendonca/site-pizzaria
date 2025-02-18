@@ -66,9 +66,7 @@
     text-decoration: none;
 
 }
-.sobre-nos{
-    margin-left: 50px;
-}
+
 .suporte p{
     color: red ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
@@ -82,9 +80,7 @@
 .suporte a{
     text-decoration: none;
 }
-.suporte{
-    margin-left: 50px;
-}
+
 .pizzaria-logo-rodape{
     width: 130px;
 }
